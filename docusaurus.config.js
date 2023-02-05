@@ -9,8 +9,8 @@ const projectName = "kiwiCodeCamp";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Kiwi",
+  tagline: "I love kiwi",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -63,11 +63,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/kiwicodecamp-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "kiwiCodeCamp",
         logo: {
-          alt: "My Site Logo",
+          alt: "kiwiCodeCamp Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -79,7 +79,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/kiwiCodeCamp/kiwiCodeCamp.github.io/",
             label: "GitHub",
             position: "right",
           },
@@ -101,16 +101,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Telegram",
+                href: "https://t.me/kiwicodecamp",
               },
             ],
           },
@@ -123,12 +115,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/kiwiCodeCamp",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KiwiCodeCamp.`,
       },
       prism: {
         theme: lightCodeTheme,
