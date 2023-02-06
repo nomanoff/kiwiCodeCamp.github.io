@@ -9,8 +9,8 @@ const projectName = "kiwiCodeCamp";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Kiwi",
-  tagline: "I love kiwi",
+  title: "kiwi",
+  tagline: "kiwi docs",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} KiwiCodeCamp.`,
+        copyright: `Copyright © ${new Date().getFullYear()} kiwiCodeCamp.`,
       },
       prism: {
         theme: lightCodeTheme,
