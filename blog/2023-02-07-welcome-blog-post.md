@@ -6,7 +6,7 @@ authors:
   title: kiwiCodeCamp Founder
   url: https://github.com/nomanoff
   image_url: https://avatars.githubusercontent.com/u/60359425?v=4
-tags: [kiwicodecamp, maqsad]
+tags: [hello, kiwicodecamp, maqsad]
 ---
 
 ## Hello World! (Salom Dunyo!) 👋
