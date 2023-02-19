@@ -2,9 +2,19 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome 👋
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**kiwiCodeCamp**ga hush kelibsiz 🎉.
+
+:::tip Maslahat
+
+Ushbu vebsaytga yangi kelib turgan bo'lsangiz, avval men yozgan [blog post](/blog/welcome-blog-post)ni o'qishingizni maslahat beraman.
+
+:::
+
+In this tutorial series, we'll cover the basics of web development, including HTML, CSS, and JavaScript. We'll also learn how to use modern web frameworks like React and Node.js, and we'll build real-world projects along the way.
+
+So whether you're a complete beginner or just looking to refresh your skills, join us on this exciting journey to become a web developer!
 
 ## Getting Started
 

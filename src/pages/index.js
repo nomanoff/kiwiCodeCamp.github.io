@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import HomepageIntroVideo from "@site/src/components/HomepageIntroVideo";
 
 import styles from "./index.module.css";
 
@@ -19,7 +20,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Kiwi Tutorial - 5min ⏱️
+            Kirish 🚀
           </Link>
         </div>
       </div>
@@ -35,6 +36,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
+      <HomepageIntroVideo />
       <main>
         <HomepageFeatures />
       </main>
