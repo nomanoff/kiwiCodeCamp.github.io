@@ -12,9 +12,9 @@ Ushbu vebsaytga yangi kelib turgan bo'lsangiz, avval men yozgan [blog post](/blo
 
 :::
 
-In this tutorial series, we'll cover the basics of web development, including HTML, CSS, and JavaScript. We'll also learn how to use modern web frameworks like React and Node.js, and we'll build real-world projects along the way.
+Bu yerda biz web dasturlashni asoslari bo'lgan **HTML**, **CSS**, va **JavaScript**ni o'rganamiz. Keyinchalik zamonaviy web frameworklari - **React**, **Next.js**, **React Native**, va **Node.js** kabilarni ham ishlatgan holda bir nechta _real-world_ loyihalarni ham yasaymiz.
 
-So whether you're a complete beginner or just looking to refresh your skills, join us on this exciting journey to become a web developer!
+Shunday qilib, siz yangi boshlovchi yoki shunchaki mahoratingizni yangilamoqchi bo'lsangiz, ushbu qiziqarli sayohatga qo'shiling!
 
 ## Getting Started
 
