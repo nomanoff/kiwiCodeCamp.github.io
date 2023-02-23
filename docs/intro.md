@@ -29,39 +29,33 @@ Imloviy hatolarimga ham e'tibor bermaysizlar 😅.
 
 <!-- <img src="./img/organick_website_preview.png" alt="Description of image" width="100%"> -->
 
-![Docusaurus logo](./img/organick_website_preview.png)
+![Docusaurus logo](./img/organick_preview.png)
 
 ### Nimalar kerak bo'ladi
 
+- Albatta, kompyuter 😁. Mac, Windows, Linux, farqi yo'q. Pastdagilarni 👇 o'rnatganda ishlasa bo'ldi.
+
+  - Men darslarimda Mac ishlataman (Apple fanboy 🙃) lekin Windows ishlatuvchilarga ham yordam berib ketishga harakat qilaman.
+
+- [Google Chrome](https://www.google.com/chrome/) web browseri. (O'ylaymanki [Internet Explorer](https://www.microsoft.com/en-us/download/internet-explorer.aspx)ni hech kim ishlatmay qo'ygan. 😅)
+
+  - Agar **Chrome**ni o'rnata olmasangiz [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) ham bo'ladi.
+
 - [Brackets](https://brackets.io/) yoki [VS Code](https://code.visualstudio.com/)
+
   - Ikkalasi ham yaxshi. Men ishda **VS Code**dan foydalanaman. Yangi boshlovchilar uchun **Brackets**ni tafsiya qilaman. Chunki, Brackets ishlatishga qulay va ortiqcha _configuration_ talab qilmaydi.
-  - Ikkovi ham Mac, Windows, va Linuxda ishlaydi. O'rnatishga qiynalsangiz Telegram gr dan yordam so'rang^^.
+  - Ikkovi ham Mac, Windows, va Linuxda ishlaydi. O'rnatishga qiynalsangiz Telegram guruhimizdan yordam so'rang^^.
 
-## Generate a new site
+- Hozircha shular. Agarda yana nimadir kerak bo'lib qolsa videoda aytib ketaman.
 
-Generate a new Docusaurus site using the **classic template**.
+## Youtube Video
 
-The classic template will automatically be added to your project after you run the command:
+Agarda kerakli narsalarni o'rnatib olgan bo'lsangiz videoni ko'rishingiz va _code_ yozishni boshlashingiz mummkin.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+[![Alt text](https://img.youtube.com/vi/7r8nqIiZkec/0.jpg)](https://www.youtube.com/watch?v=7r8nqIiZkec)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7r8nqIiZkec" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Videodan eslatmalar:
