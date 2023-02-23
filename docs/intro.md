@@ -52,8 +52,6 @@ Imloviy hatolarimga ham e'tibor bermaysizlar 😅.
 
 Agarda kerakli narsalarni o'rnatib olgan bo'lsangiz videoni ko'rishingiz va _code_ yozishni boshlashingiz mummkin.
 
-[![Alt text](https://img.youtube.com/vi/7r8nqIiZkec/0.jpg)](https://www.youtube.com/watch?v=7r8nqIiZkec)
-
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/7r8nqIiZkec" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
