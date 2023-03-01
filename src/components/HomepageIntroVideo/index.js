@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 function HomepageIntroVideo() {
   return (
     <div className={styles.videoContainer}>
-      <iframe
+      {/* <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/KlV70aQGblk"
@@ -12,7 +12,7 @@ function HomepageIntroVideo() {
         frameBorder="0"
         allow="autoplay; encrypted-media"
         allowFullScreen
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 }

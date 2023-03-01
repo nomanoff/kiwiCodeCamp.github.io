@@ -25,13 +25,7 @@ Imloviy hatolarimga ham e'tibor bermaysizlar 😅.
 
 ## Biz boshladik!
 
-**Web dasturlashni** o'rgatishda ko'pchilik mentorlar "internet", "browser" yoki HTML sintaktikasi va h.k. lardan o'rgana boshlaydi. Men sal boshqacharoq yo'l tutmoqchiman va o'zim ham shu yo'l bilan boshlaganman. Ya'ni, avvaliga biz o'zimizni testdan o'tkazishimiz kerak bo'ladi. Buning uchun men sizlarga 1-2 soatlik video beraman va ushbu videoda biz birgalikda bitta kichik website yasaymiz. Birinchi darsdanoq siz o'zingizni birinchi veb sahifangizni yasaysiz. Albatta boshlanishiga biz JavaScript yoki murakkab _library_ dan foydalanmaymiz. Shunchaki HTML va CSSdan foydalangan holda biz ushbu websiteni yasaymiz:
-
-<!-- <img src="./img/organick_website_preview.png" alt="Description of image" width="100%"> -->
-
-![Docusaurus logo](./img/organick_preview.png)
-
-### Nimalar kerak bo'ladi
+### Nimalar kerak bo'ladi?
 
 - Albatta, kompyuter 😁. Mac, Windows, Linux, farqi yo'q. Pastdagilarni 👇 o'rnatganda ishlasa bo'ldi.
 
@@ -46,14 +40,4 @@ Imloviy hatolarimga ham e'tibor bermaysizlar 😅.
   - Ikkalasi ham yaxshi. Men ishda **VS Code**dan foydalanaman. Yangi boshlovchilar uchun **Brackets**ni tafsiya qilaman. Chunki, Brackets ishlatishga qulay va ortiqcha _configuration_ talab qilmaydi.
   - Ikkovi ham Mac, Windows, va Linuxda ishlaydi. O'rnatishga qiynalsangiz Telegram guruhimizdan yordam so'rang^^.
 
-- Hozircha shular. Agarda yana nimadir kerak bo'lib qolsa videoda aytib ketaman.
-
-## Youtube Video
-
-Agarda kerakli narsalarni o'rnatib olgan bo'lsangiz videoni ko'rishingiz va _code_ yozishni boshlashingiz mummkin.
-
-<div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7r8nqIiZkec" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-## Videodan eslatmalar:
+- Hozircha shular. Keyingi bo'limga o'tib **HTML**ni o'rganishni boshlasangiz ham bo'ladi ✅.
