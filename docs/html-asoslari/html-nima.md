@@ -37,14 +37,41 @@ Yuqoridagi HTML codeni browswerdagi ko'rinishi 👇
 
 <iframe width="100%" height="300" src="//jsfiddle.net/nomanoff/p78zxmnq/3/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Create your first Markdown Page
+### Yuqoridagi HTML code:
 
-Create a file at `src/pages/my-markdown-page.md`:
+- `<!DOCTYPE html>` - HTML *code*da birinchi qatorda keladi va ushbu code *HTML*ni 5-versiyasi ekanligini belgilaydi. Hozirgi kunda zamonaviy *browser*lar HTML5 ni _support_ qiladi.
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+- `<html></html>` - _root element_ bo'lib, ushbu _element_ butun sahifadagi barcha *content*ni o'rab oladi.
 
-This is a Markdown page
-```
+- `<head></head>` - ushbu _element_ veb-sahifadagi *user(website foydalanuvchisi)*ga ko'rinmaydigan barcha ma'lumotlar uchun _container_ vazifasini bajaradi.
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+- `<title></title>` - bu sizning sahifangizning sarlavhasini o'z ichiga oladi, ya'ni browserda *tab*da ko'rinib turuvchi sarlavha.
+
+- `<body></body>` - bu _element_ *web user*ingizga sahifangizga tashrif buyurganlarida ko'rsatmoqchi bo'lgan barcha *content*ni o'z ichiga oladi.
+
+- `<h1></h1>` - ushbu _element_ katta sarlavhani belgilaydi.
+- `<p></p>` - *element*i paragrafni belgilaydi.
+
+- `<section></section>` - bu _element_ *document*ning umumiy mustaqil qismini ifodalaydi.
+
+- `<footer></footer>` - *document*ning mualliflik, mualliflik huquqi, telefon raqami va boshqa shunga o'xshash ma'lumotlarni ko'rsatish uchun ishlatiladi.
+
+E'tibor qilgan bo'lsangiz yuqoridagi *HTML code*ni tushuntirish mobaynida hammasi **_element_** deb nomlangan. Chunki, HTML bir nechta shularga o'xshash *element*lardan tashkil topgan. Misol tariqasida ` <header>`, `<article>`, `<section>`, `<div>`, `<span>`, `<img>`, `<aside>`, `<audio>`, `<canvas>`, `<datalist>`, `<details>`, `<embed>`, `<nav>`, `<output>`, `<progress>`, `<video>`, `<ul>`, `<ol>`, `<li>` va boshqalarni keltirishim mumkin.
+
+HTML *element*i *document*dagi boshqa matndan **tag**lar orqali ajratiladi, ular **"<"** va **">"** bilan o'ralgan element nomidan iborat.
+
+:::tip tag va element
+
+"tag" deb `<p>` va `</p>` ga aytiladi. "element" esa ochilish "tag"i, yopish "tag"i va _content_ ni o'z ichiga oladi. Masalan, `<p>This is the content</p>` - bu element.
+
+:::
+
+_Tag_ lar case insensitive hisoblanadi (katta-kichik harflarga sezgir emas). Ya'ni, u katta, kichik yoki aralash yozilishi mumkin. Masalan, `<title>` *tag*i `<Title>`,` <TITLE>` yoki boshqa usulda yozilishi mumkin. Biroq, _conventional_ (konventsiya) va _recommended_ (tavsiya etilgan) yo'l *tag*larni kichik harflar bilan yozishdir.
+
+## HTML elementi anatomiyasi
+
+![HTML elements and tags explained](./img/html_element_anatomy.jpg)
+
+Yuqoridagi chizmada ko'rsatilganidek (yozganlarimni tushundingiz degan umiddaman 😅) **Opening tag** (bu holda, `p`) _angle brackets_(burchakli qavs) lariga o'ralgan.
+
+**Closing tag** - bu _opening tag_ bilan bir xil, faqat `p` *component*idan oldin _forward slash_ `/` (to'g'ri chiziq)ni o'z ichiga oladi. Bu element qaerda tugashini bildiradi. *Closing tag*ni tushurib qoldirish xato hisoblanadi va g'alati natijalarga olib kelishi mumkin.
