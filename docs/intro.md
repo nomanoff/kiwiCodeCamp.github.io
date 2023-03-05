@@ -2,46 +2,42 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome 👋
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**kiwiCodeCamp**ga hush kelibsiz 🎉.
 
-## Getting Started
+:::tip Maslahat
 
-Get started by **creating a new site**.
+Ushbu vebsaytga yangi kelib turgan bo'lsangiz, avval men yozgan [blog post](/blog/welcome-blog-post)ni o'qishingizni maslahat beraman.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::
 
-### What you'll need
+Bu yerda biz web dasturlashni asoslari bo'lgan **HTML**, **CSS**, va **JavaScript**ni o'rganamiz. Keyinchalik zamonaviy web frameworklari - **React**, **Next.js**, **React Native**, va **Node.js** kabilarni ham ishlatgan holda bir nechta _real-world_ loyihalarni ham yasaymiz.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Shunday qilib, siz yangi boshlovchi yoki shunchaki mahoratingizni yangilamoqchi bo'lsangiz, ushbu qiziqarli sayohatga qo'shiling!
 
-## Generate a new site
+:::danger Ogohlantirish
 
-Generate a new Docusaurus site using the **classic template**.
+Men _web_ dasturlashni ingliz tilida o'rganganim va dasturlashdagi atamalarni o'zbekchada bilmaganim uchun, inglizcha so'zlar bilan aralashtirib yozyapman. Agarda birorta so'zni tushunmay qolsanglar [Telegram guruhi](https://t.me/kiwi_logs)dan so'rashingiz mumkin ✅.
+Imloviy hatolarimga ham e'tibor bermaysizlar 😅.
 
-The classic template will automatically be added to your project after you run the command:
+:::
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Biz boshladik!
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Nimalar kerak bo'ladi?
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Albatta, kompyuter 😁. Mac, Windows, Linux, farqi yo'q. Pastdagilarni 👇 o'rnatganda ishlasa bo'ldi.
 
-## Start your site
+  - Men darslarimda Mac ishlataman (Apple fanboy 🙃) lekin Windows ishlatuvchilarga ham yordam berib ketishga harakat qilaman.
 
-Run the development server:
+- [Google Chrome](https://www.google.com/chrome/) web browseri. (O'ylaymanki [Internet Explorer](https://www.microsoft.com/en-us/download/internet-explorer.aspx)ni hech kim ishlatmay qo'ygan. 😅)
 
-```bash
-cd my-website
-npm run start
-```
+  - Agar **Chrome**ni o'rnata olmasangiz [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) ham bo'ladi.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+- [Brackets](https://brackets.io/) yoki [VS Code](https://code.visualstudio.com/)
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+  - Ikkalasi ham yaxshi. Men ishda **VS Code**dan foydalanaman. Yangi boshlovchilar uchun **Brackets**ni tafsiya qilaman. Chunki, Brackets ishlatishga qulay va ortiqcha _configuration_ talab qilmaydi.
+  - Ikkovi ham Mac, Windows, va Linuxda ishlaydi. O'rnatishga qiynalsangiz Telegram guruhimizdan yordam so'rang^^.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Hozircha shular. Keyingi bo'limga o'tib **HTML**ni o'rganishni boshlasangiz ham bo'ladi ✅.
