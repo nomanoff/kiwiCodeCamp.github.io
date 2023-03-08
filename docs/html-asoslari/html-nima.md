@@ -92,6 +92,36 @@ Elementlar quyidagi kabi **attribute**larga ham ega bo'lishi mumkin:
 
 1. **Attribute**lar _element_ haqida (foydalanuvchiga ko'rinmaydigan) qo'shimcha ma'lumotlarni o'z ichiga oladi.
 
-2. **attribute name** - *attribute*ning ismi. Ushbu misolda `class` attribute ishlatilgan. "class" so'zi avvaldan belgilangan bo'lib uni o'zgartirib bo'lmaydi.
+2. **attribute name** - *attribute*ning ismi. Ushbu misolda `class` _attribute_ ishlatilgan. "class" so'zi avvaldan belgilangan bo'lib uni o'zgartirib bo'lmaydi. `class` _attribute_ *element*ga (bir xil nomga ega bo'lgan boshqa elementlar uchun ham) _style_ berish uchun ishlatiladi.
 
-3. **attribute value** - *attribute*ning qiymati. "value" sifatida siz hoxlagan narsangizni yozishingiz mumkin. Misolda "awesome" deb nomladim. (Nima deb nomlashingizdan qattiy nazar ingliz tilida nomlaganingiz yaxshi. Just my advice 🙂)
+3. **attribute value** - *attribute*ning qiymati. "value" sifatida siz hoxlagan narsangizni yozishingiz mumkin. Misolda "awesome" deb nomladim. (Nima deb nomlashingizdan qattiy nazar ingliz tilida nomlaganingiz yaxshi. Just my advice 🙂.)
+
+## HTML elementlarini joylashtirish
+
+Bir elementni boshqa bir element ichiga joylashtirish(nest) qilish mumkin. Masalan
+
+```html title="index.html"
+<p class="awesome">Men <strong> HTML </strong> dasturchisiman 😎.</p>
+```
+
+Yuqoridagi _html code_ *web*da mana bunday ko'rinadi 👇
+
+> <p class="awesome">Men <strong> HTML </strong> dasturchisiman 😎.</p>
+
+Ushbu `<strong> HTML </strong>` elementi `p` tag ichida joylashtirilgan.
+
+- `<strong></strong>` - *element*i *text*ni qalin qilib beradi.
+
+## Void (bo'sh) elementlar
+
+Ba'zi *element*larning *content*i yo'q va ular **void _element_**lar deb ataladi. Misol uchun `<input>` .
+
+_Void element_ ichida boshqa _element_ yoki _content_ yozilmaydi. Masalan:
+
+`<input type="text"></input>` ❌
+
+`<input type="text">` ✅
+
+`<input>` *element*i haqida alohida gaplashamiz. Hozircha "shunday _element_ bor ekan" deb ketaveringlar 😅.
+
+# HTML5 template(shabloni)
