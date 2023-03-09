@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # HTML nima?
 
-Internetda "HTML dasturlash tilimi yoki yo'qmi" degan ko'p argumentlar va _meme_ mavjud:
+Internetda "HTML dasturlash tilimi yoki yo'qmi" degan ko'p argumentlar va *meme*lar mavjud:
 
 ![HTML memes](./img/html_memes.png)
 
@@ -72,6 +72,56 @@ _Tag_ lar case insensitive hisoblanadi (katta-kichik harflarga sezgir emas). Ya'
 
 ![HTML elements and tags explained](./img/html_element_anatomy.jpg)
 
-Yuqoridagi chizmada ko'rsatilganidek (yozganlarimni tushundingiz degan umiddaman 😅) **Opening tag** (bu holda, `p`) _angle brackets_(burchakli qavs) lariga o'ralgan.
+Yuqoridagi chizmada ko'rsatilganidek (yozganlarimni tushundingiz degan umiddaman 😅):
 
-**Closing tag** - bu _opening tag_ bilan bir xil, faqat `p` *component*idan oldin _forward slash_ `/` (to'g'ri chiziq)ni o'z ichiga oladi. Bu element qaerda tugashini bildiradi. *Closing tag*ni tushurib qoldirish xato hisoblanadi va g'alati natijalarga olib kelishi mumkin.
+1. **Opening tag** (bu holda, `p`) _angle brackets_(burchakli qavs) lariga o'ralgan.
+
+2. **Closing tag** - bu _opening tag_ bilan bir xil, faqat `p` *component*idan oldin _forward slash_ `/` (to'g'ri chiziq)ni o'z ichiga oladi. Bu element qaerda tugashini bildiradi. *Closing tag*ni tushurib qoldirish xato hisoblanadi va g'alati natijalarga (errors) olib kelishi mumkin.
+
+3. **O'zgaruvchi content**: bu *element*ni ichidagi _content_, ishbu misolda, shunchaki matn.
+
+## Element _attributes_
+
+Elementlar quyidagi kabi **attribute**larga ham ega bo'lishi mumkin:
+
+```html title="index.html"
+<p class="awesome">Hello world!</p>
+```
+
+![HTML memes](./img/html_attribute.png)
+
+1. **Attribute**lar _element_ haqida (foydalanuvchiga ko'rinmaydigan) qo'shimcha ma'lumotlarni o'z ichiga oladi.
+
+2. **attribute name** - *attribute*ning ismi. Ushbu misolda `class` _attribute_ ishlatilgan. "class" so'zi avvaldan belgilangan bo'lib uni o'zgartirib bo'lmaydi. `class` _attribute_ *element*ga (bir xil nomga ega bo'lgan boshqa elementlar uchun ham) _style_ berish uchun ishlatiladi.
+
+3. **attribute value** - *attribute*ning qiymati. "value" sifatida siz hoxlagan narsangizni yozishingiz mumkin. Misolda "awesome" deb nomladim. (Nima deb nomlashingizdan qattiy nazar ingliz tilida nomlaganingiz yaxshi. Just my advice 🙂.)
+
+## HTML elementlarini joylashtirish
+
+Bir elementni boshqa bir element ichiga joylashtirish(nest) qilish mumkin. Masalan
+
+```html title="index.html"
+<p class="awesome">Men <strong> HTML </strong> dasturchisiman 😎.</p>
+```
+
+Yuqoridagi _html code_ *web*da mana bunday ko'rinadi 👇
+
+> <p class="awesome">Men <strong> HTML </strong> dasturchisiman 😎.</p>
+
+Ushbu `<strong> HTML </strong>` elementi `p` tag ichida joylashtirilgan.
+
+- `<strong></strong>` - *element*i *text*ni qalin qilib beradi.
+
+## Void (bo'sh) elementlar
+
+Ba'zi *element*larning *content*i yo'q va ular **void _element_**lar deb ataladi. Misol uchun `<input>` .
+
+_Void element_ ichida boshqa _element_ yoki _content_ yozilmaydi. Masalan:
+
+`<input type="text"></input>` ❌
+
+`<input type="text">` ✅
+
+`<input>` *element*i haqida alohida gaplashamiz. Hozircha "shunday _element_ bor ekan" deb ketaveringlar 😅.
+
+O'ylaymanki HTML haqida ozmi ko'pmi bilib oldingiz 🤓. Endi _code_ yozishni boshlasak ham bo'ladi.
