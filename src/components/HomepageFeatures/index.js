@@ -4,33 +4,24 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "Master Web Development",
     Svg: require("@site/static/img/undraw_kiwicodecamp_mountain.svg").default,
     description: (
-      <>
-        kiwiCodeCamp was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <>Comprehensive web development curriculum, from beginner to advanced.</>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Community Support",
     Svg: require("@site/static/img/undraw_kiwicodecamp_tree.svg").default,
     description: (
-      <>
-        kiwiCodeCamp lets you focus on your docs, and we&apos;ll do the chores.
-        Go ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <>Active community on Telegram to support you as you learn and grow.</>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Project-Based",
     Svg: require("@site/static/img/undraw_kiwicodecamp_react.svg").default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. kiwiCodeCamp
-        can be extended while reusing the same header and footer.
-      </>
+      <>Hands-on, project-based learning to develop real-world skills.</>
     ),
   },
 ];
