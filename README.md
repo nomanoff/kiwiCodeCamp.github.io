@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/kiwicodecamp/kiwicodecamp)
+
 # Welcome to kiwiCodeCamp's official github docs
 
 ## Want to contribute? Your are welcome. Please read the contribution guidelines.
