@@ -6,13 +6,13 @@ sidebar_position: 2
 
 ## Fayllar bilan ishlash
 
-**Website**(veb-sahifa) bir nechta fayllardan iborat bo'ladi. Eng oddiy websitening "papka" ko'rinishi shunga o'xshaydi:
+**Website**(veb-sahifa) bir nechta fayllardan iborat bo'ladi. Eng oddiy *website*ning _"papka"_ ko'rinishi shunga o'xshaydi:
 
 ![basic website folder structure](./img/simple-website-folder.png)
 
 ## HTML5 template(shabloni)
 
-Shunday qilib *element*lar haqida basic(boshlang'ich) tushunchaga ega bo'ldingiz. (Yoki shunday deb umid qilaman 😅). Lekin, *element*larning o'zlari unchalik ham foydali emas. Hamma kuch turli hil elemenetlarni birlashtirib butun boshli HTML page yaratishda dir 💪.
+Shunday qilib *element*lar haqida basic(boshlang'ich) tushunchaga ega bo'ldingiz. (Yoki shunday deb umid qilaman 😅). Lekin, *element*larning o'zlari unchalik ham foydali emas. Hamma kuch turli xil elemenetlarni birlashtirib butun boshli _HTML page_ yaratishda dir 💪.
 Yangi veb-sayt qurayotganda, yaxshi boshlang'ich poydevorga ega bo'lish muhimdir.
 
 Quyida, har qanday HTML project(loyiha) yasashda ishlatiladigan, eng oddiy **HTML5 boilerplate**(template) ni ko'rishingiz mumkin:
