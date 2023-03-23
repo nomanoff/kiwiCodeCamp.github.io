@@ -10,6 +10,20 @@ sidebar_position: 2
 
 ![basic website folder structure](./img/simple-website-folder.png)
 
+`index.html`: Ushbu fayl HTML codeni o'z ichiga oladi.
+
+`style.css`: Ushbu faylda kontentingizni style berish uchun foydalaniladigan CSS kodlari bo'ladi (masalan, matn va fon ranglarini o'zgartish).
+
+`main.js`: Ushbu faylda saytingizga interaktiv funksiyalar qoʻshish uchun foydalaniladigan barcha JavaScript code yoziladi (masalan, bosilganda websahifa rangini o'zgartiradigan tugmalar).
+
+`images` papkasi: Ushbu papkada saytingizda foydalanadigan barcha rasmlar saqlanadi.
+
+## Kichik websayt(cha)
+
+Keling bir kichik websayt yasab ko'ramiz 🤓. Kompyuteringizning birorta papkasida, masalan Desktop, `my-website` degan papka oching va uning ichiga yuqoridagi rasmda ko'rsatilgan fayllarni yasang.
+
+`my-website` degan papka ushbu ko'rinishda bo'lishi kerak:
+
 ## HTML5 template(shabloni)
 
 Shunday qilib *element*lar haqida basic(boshlang'ich) tushunchaga ega bo'ldingiz. (Yoki shunday deb umid qilaman 😅). Lekin, *element*larning o'zlari unchalik ham foydali emas. Hamma kuch turli xil elemenetlarni birlashtirib butun boshli _HTML page_ yaratishda dir 💪.
