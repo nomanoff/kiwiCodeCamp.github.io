@@ -8,7 +8,7 @@ Internetda "HTML dasturlash tilimi yoki yo'qmi" degan ko'p argumentlar va *meme*
 
 ![HTML memes](./img/html_memes.png)
 
-Lekin bir narsa aniq, **HTML** veb-sahifalarni yasash uchun standart _markup_ tili hisoblanadi va *HTML*siz _website_ yasay olmaymiz. _HTML_ - **H**yper **T**ext **M**arkup **L**anguage bo'lib, webdagi *content*ni ma'nosi va tuzilishini belgilaydi. *HTML*dan tashqari boshqa texnologiyalar odatda veb-sahifaning ko'rinishini (CSS) yoki funksionalligi (JavaScript) tasvirlash uchun ishlatiladi.
+Lekin bir narsa aniq, **HTML** veb-sahifalarni yasash uchun standart _markup_ tili hisoblanadi va *HTML*siz _website_ yasay olmaymiz. _HTML_ - **H**yper **T**ext **M**arkup **L**anguage bo'lib, webdagi *content*ni ma'nosi va tuzilishini belgilaydi. *HTML*dan tashqari boshqa texnologiyalar odatda veb-sahifaning ko'rinishini (CSS) yoki funksionalligini (JavaScript) tasvirlash uchun ishlatiladi.
 
 Hozir siz *HTML*ni o'rganypsiz, shuning uchun siz "HTML dasturlash tili va men dasturchiman" - deb tortishsangiz bo'ladi 😅. (Agarda isbotlab ber deyishsa [ushbu blogni](https://javascript.plainenglish.io/html-is-a-programming-language-prove-me-wrong-7c1ab0c9b8f9) o'qib ko'ring 😎).
 
@@ -33,7 +33,7 @@ Pastda eng oddiy HTML code ko'rsatilgan:
 </html>
 ```
 
-Yuqoridagi HTML codeni browswerdagi ko'rinishi 👇
+Yuqoridagi HTML codeni browserdagi ko'rinishi 👇
 
 <iframe width="100%" height="300" src="//jsfiddle.net/nomanoff/p78zxmnq/3/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -66,7 +66,7 @@ HTML *element*i *document*dagi boshqa matndan **tag**lar orqali ajratiladi, ular
 
 :::
 
-_Tag_ lar case insensitive hisoblanadi (katta-kichik harflarga sezgir emas). Ya'ni, u katta, kichik yoki aralash yozilishi mumkin. Masalan, `<title>` *tag*i `<Title>`,` <TITLE>` yoki boshqa usulda yozilishi mumkin. Biroq, _conventional_ (konventsiya) va _recommended_ (tavsiya etilgan) yo'l *tag*larni kichik harflar bilan yozishdir.
+_Tag_ lar _case insensitive_ hisoblanadi (katta-kichik harflarga sezgir emas). Ya'ni, u katta, kichik yoki aralash yozilishi mumkin. Masalan, `<title>` *tag*i `<Title>`,` <TITLE>` yoki boshqa usulda yozilishi mumkin. Biroq, _conventional_ (konventsiya) va _recommended_ (tavsiya etilgan) yo'l *tag*larni kichik harflar bilan yozishdir.
 
 ## HTML elementi anatomiyasi
 
@@ -78,7 +78,7 @@ Yuqoridagi chizmada ko'rsatilganidek (yozganlarimni tushundingiz degan umiddaman
 
 2. **Closing tag** - bu _opening tag_ bilan bir xil, faqat `p` *component*idan oldin _forward slash_ `/` (to'g'ri chiziq)ni o'z ichiga oladi. Bu element qaerda tugashini bildiradi. *Closing tag*ni tushurib qoldirish xato hisoblanadi va g'alati natijalarga (errors) olib kelishi mumkin.
 
-3. **O'zgaruvchi content**: bu *element*ni ichidagi _content_, ishbu misolda, shunchaki matn.
+3. **O'zgaruvchi content**: bu *element*ni ichidagi _content_, bu ushbu misolda, shunchaki matn.
 
 ## Element _attributes_
 

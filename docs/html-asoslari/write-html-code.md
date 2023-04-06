@@ -18,11 +18,63 @@ sidebar_position: 2
 
 `images` papkasi: Ushbu papkada saytingizda foydalanadigan barcha rasmlar saqlanadi.
 
-## Kichik websayt(cha)
+## Kichik veb-sahifa(cha)
 
-Keling bir kichik websayt yasab ko'ramiz 🤓. Kompyuteringizning birorta papkasida, masalan Desktop, `my-website` degan papka oching va uning ichiga yuqoridagi rasmda ko'rsatilgan fayllarni yasang.
+Keling bir kichik website yasab ko'ramiz 🤓. Kompyuteringizning birorta papkasida, masalan Desktop, `my-website` degan papka oching va uning ichiga yuqoridagi rasmda ko'rsatilgan fayllarni yasang.
 
 `my-website` degan papka ushbu ko'rinishda bo'lishi kerak:
+
+![basic website folder](./img/website.png)
+
+1. `images` papkasiga birorta rasm joylang. Ushbu _demo_ uchun men shu rasmni qo'ydim:
+
+![basic website folder](./img/images-folder.png)
+
+2. `index.html` faylingizni oching va quyida ko'rsatilgan kodni faylga kiriting. Hozircha bularning barchasi nimani anglatishi haqida tashvishlanmang - biz ushbu tuzilmalarni keyinroq yana batafsil ko'rib chiqamiz.
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My demo page</title>
+  </head>
+  <body>
+    <img src="" alt="my demo image" />
+  </body>
+</html>
+```
+
+2. `<img src="" alt="my demo image" />` - ushbu HTML code veb-sahifaga rasm joylashda ishlatiladi. Lekin HTML rasm qayerda ekanligini bilmaydi, chunki, `src=""` attribute bo'sh. Biz ishlatmoqchi bo'lga rasm `images` papkasini ichida va u `index.html` fayli bilan bitta papkada joylashgan. `index.html` dan turib `images` papkasidagi rasmga yo'l ushbu ko'rinishda bo'ladi: `images/sizning-rasm-nomi`. Men ushbu misol uchun tanlagan rasm nomi `kiwcode-logo.png` deb ataladi, shuning uchun fayl yo'li - `images/kiwicode-logo.png`.
+
+3. Fayl yo'lini (mening misolimda `images/kiwicode-logo.png`) `src=""`ning qo'sh tirnoq belgilari orasiga kiriting.
+
+4. `alt` *attribute*ning ichiga esa rasmni ifodalovchi ma'lumotni kiriting. Misol uchun. `alt="kiwicodecampning logosi"`.
+
+5. `index.html` faylini _save_ (сохранить 😁) qiling. Tayyor HTML code ushbu ko'rinishda bo'lishi kerak:
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My demo page</title>
+  </head>
+  <body>
+    <img src="images/kiwicode-logo.png" alt="kiwicodecampning logosi" />
+  </body>
+</html>
+```
+
+Endi ushbu fayl ustiga ikki marotaba bosib uni browseringizda oching va `"ta-da!"`:
+
+![basic website folder](./img/html_img_preview.png)
+
+Tabriklations! Birinchi veb-sahifa(cha)ngizni yasadingiz 🥳. (Agarda sizda ishlamagan bo'lsa, demak qayerdadir birorta narsani tushurib qoldirgansiz. Yaxshilab tekshiring!)
+
+Endi nima? O'ylaymanki oz bo'lsa ham HTML haqida bilib oldingiz. Yuqoridagi HTML *code*ni o'zingiz bir o'zrgartirib "experiment" qilib ko'ring. Albatta _code_ yozish bilangina _code_ yozishni o'rganish mumkin.
 
 ## HTML5 template(shabloni)
 
