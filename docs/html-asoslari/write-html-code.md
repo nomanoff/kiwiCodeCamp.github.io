@@ -76,25 +76,39 @@ Tabriklations! Birinchi veb-sahifa(cha)ngizni yasadingiz 🥳. (Agarda sizda ish
 
 Endi nima? O'ylaymanki oz bo'lsa ham HTML haqida bilib oldingiz. Yuqoridagi HTML *code*ni o'zingiz bir o'zrgartirib "experiment" qilib ko'ring. Albatta _code_ yozish bilangina _code_ yozishni o'rganish mumkin.
 
-## HTML5 template(shabloni)
+## HTML5 document anatomiyasi
 
 Shunday qilib *element*lar haqida basic(boshlang'ich) tushunchaga ega bo'ldingiz. (Yoki shunday deb umid qilaman 😅). Lekin, *element*larning o'zlari unchalik ham foydali emas. Hamma kuch turli xil elemenetlarni birlashtirib butun boshli _HTML page_ yaratishda dir 💪.
 Yangi veb-sayt qurayotganda, yaxshi boshlang'ich poydevorga ega bo'lish muhimdir.
 
-Quyida, har qanday HTML project(loyiha) yasashda ishlatiladigan, eng oddiy **HTML5 boilerplate**(template) ni ko'rishingiz mumkin:
+Keling, index.html ga qo'ygan kodimizni qayta ko'rib chiqaylik:
 
 ```html title="index.html"
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My demo page</title>
   </head>
   <body>
-    <script src="index.js"></script>
+    <img src="images/kiwicode-logo.png" alt="kiwicodecampning logosi" />
   </body>
 </html>
 ```
+
+Bizda quyidagilar mavjud:
+
+- `<!DOCTYPE html>` - HTML *code*da birinchi qatorda keladi va ushbu code *HTML*ni 5-versiyasi ekanligini belgilaydi. Hozirgi kunda zamonaviy *browser*lar HTML5 ni _support_ qiladi.
+
+- `<html></html>` - _root element_ bo'lib, ushbu _element_ butun sahifadagi barcha *content*ni o'rab oladi.
+
+- `<head></head>` - ushbu _element_ veb-sahifadagi *user(website foydalanuvchisi)*ga ko'rinmaydigan barcha ma'lumotlar uchun _container_ vazifasini bajaradi.
+
+- `<meta charset="utf-8">` — ushbu _element_ veb-sahifa foydalanishi kerak bo'lgan belgilar to'plamini **UTF-8** formatiga o'girib beradi. UTF-8 formati ko'pchilik yozma tillardagi belgilarni o'z ichiga oladi. Misol uchun evro belgisi (**€**) UTF-8 formatida `U+20AC`ga tarjima bo'ladi va bu formatni browserlar tushuna oladi.
+
+- `<meta name="viewport" content="width=device-width">` — ushbu _element_ sahifani _viewport_ (ko'rish oynasi) kengligida ko'rsatishni ta'minlaydi, mobil *browser*lar sahifalarni ko'rish oynasidan kengroq ko'rsatishga va keyin ularni qisqartirishga yo'l qo'ymaydi.
+
+- `<title></title>` - bu sizning sahifangizning sarlavhasini o'z ichiga oladi, ya'ni browserda *tab*da ko'rinib turuvchi sarlavha.
+
+- `<body></body>` - bu _element_ *web user*ingizga sahifangizga tashrif buyurganlarida ko'rsatmoqchi bo'lgan barcha *content*ni o'z ichiga oladi.
