@@ -1,0 +1,88 @@
+---
+sidebar_position: 3
+---
+
+# HTML mini website
+
+Avvalgi darsda boshlab qo'ygan "birinchi" HTML loyihamizni davom ettiramiz.
+
+## Images
+
+`<img>` elementiga yana e'tibor beraylik:
+
+```html
+<img src="images/kiwicode-logo.png" alt="kiwicodecampning logosi" />
+```
+
+Yuqorida aytib o'tganimizdek, `<img>` sahifamizga rasmni o'zi qayerga yozilgan bo'lsa o'sha tartib bilan joylashtiradi.
+
+We have also included an alt (alternative) attribute. In the alt attribute, you specify descriptive text for users who cannot see the image, possibly because of the following reasons:
+
+Shuningdek, biz `alt` (aleternative) atributni ham kiritdik. Alt atributida siz tasvirni ko'ra olmaydigan foydalanuvchilar uchun o'sha rasmni tavsiflovchi matnni belgilaysiz, ehtimol quyidagi sabablarga ko'ra:
+
+1. Ko'zi ojiz foydalanuvchilari uchun. Ko'rish qobiliyati sezilarli darajada zaif bo'lgan foydalanuvchilar ko'pincha *alt*dagi matnni o'qish uchun "screen reader" deb nomlangan vositalardan foydalanadilar. Shu yo'l bilan ular rasmni ko'rishmasa ham rasm nima ekanini his qilishlari mumkin.
+
+2. Biror narsa noto'g'ri ketdi va rasm 'load' bo'lmay qoldi. Ushbu holatda browser rasmni o'rniga *alt*dagi matnni ko'rsatadi. Masalan, men `src="images/kiwicode-logo.png"` noto'g'ri qilib hato yazsam, deylik `src="images/kiwi-logo.png"`, shunda biz vebsahifamizda taxminan mana bunday yozuv ko'ramiz:
+
+![cannot load the kiwicodecamp logo img because wrong path](./img/cannot-load-img.png)
+
+:::tip Accessibility
+
+Yuqoridaginday "imkoniyati cheklanglar" uchun yaxshi _software_ yarata olish **accessibility** deb ataladi. Bu borada alohida o'qishadi. Agarda ko'proq ma'lumot bilmoqchi bo'lsangiz unda [ushbu manbani](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) maslahat beraman.
+
+:::
+
+## Marking up text (matnni belgilash)
+
+Ushbu qism text (matn) yozishda foydalanadigan HTML elementlari haqida bo'ladi. (Ishoning, qiziq joylari endi kelyapti 😁)
+
+### Headings (sarlavha)
+
+Kitoblarda bo'lgani kabi, HTML website dan ham sarlavha bo'ladi va u **heading** deb ataladi. HTMLda 6ta darajadigi sarlavhalarni ifodalash mumkin:
+
+```html
+<!-- 6ta heading darajalari: -->
+
+<h1>Hello World (h1)</h1>
+<h2>Hello World (h2)</h2>
+<h3>Hello World (h3)</h3>
+<h4>Hello World (h4)</h4>
+<h5>Hello World (h5)</h5>
+<h6>Hello World (h6)</h6>
+```
+
+Yuqoridagi HTML browserda mana bu ko'rinishda bo'ladi👇:
+
+<iframe width="100%" height="400" src="//jsfiddle.net/nomanoff/juzgy283/1/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+:::tip HTML comments
+
+Yuqoridagi *HTML*ga e'tibor bersangiz `<!-- 6ta heading darajalari: -->` yozuvni ko'rshingiz mumkin. *HTML*da birorta qatorda yozilgan _code_ haqida _comment_ (izoh)
+berib ketmoqchi bo'lsangiz `<!-- ... --> `shularning ichiga yozishingiz mumkin. Bularni ichiga yozilgan *text*ni browserlar o'qimaydi va render qilib foydalanuvchiga ko'rsatmaydi. Bu shunchaki dasturchi uchun ko'rinib turadi.
+Vaqtinchalik ishlatilmayotgan _html_ *code*ni ham berkitib qo'yish uchun ishlatsa bo'ladi.
+:::
+
+Birgalida yasayotgan mini websiteimizga birorta sarlavha qo'yib ko'ramiz:
+
+Masalan:
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My demo page</title>
+  </head>
+  <body>
+    <h1>KiwiCodeCamp.</h1>
+    <h2>Biz bilan dasturlashni tekinga o'rganing!</h2>
+
+    <img src="images/kiwicode-logo.png" alt="kiwicodecampning logosi" />
+  </body>
+</html>
+```
+
+Yana `index.html` faylni browserda ochib ko'ramiz:
+
+![kiwicodecamp mini website 1](./img//kiwi-mini-website-1.png)
