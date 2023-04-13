@@ -101,14 +101,16 @@ Bizda quyidagilar mavjud:
 
 - `<!DOCTYPE html>` - HTML *code*da birinchi qatorda keladi va ushbu code *HTML*ni 5-versiyasi ekanligini belgilaydi. Hozirgi kunda zamonaviy *browser*lar HTML5 ni _support_ qiladi.
 
-- `<html></html>` - _root element_ bo'lib, ushbu _element_ butun sahifadagi barcha *content*ni o'rab oladi.
+- `<html></html>` - _root(ildiz) element_ bo'lib, ushbu _element_ butun sahifadagi barcha *content*ni o'rab oladi.
 
 - `<head></head>` - ushbu _element_ veb-sahifadagi *user(website foydalanuvchisi)*ga ko'rinmaydigan barcha ma'lumotlar uchun _container_ vazifasini bajaradi.
 
 - `<meta charset="utf-8">` — ushbu _element_ veb-sahifa foydalanishi kerak bo'lgan belgilar to'plamini **UTF-8** formatiga o'girib beradi. UTF-8 formati ko'pchilik yozma tillardagi belgilarni o'z ichiga oladi. Misol uchun evro belgisi (**€**) UTF-8 formatida `U+20AC`ga tarjima bo'ladi va bu formatni browserlar tushuna oladi.
 
-- `<meta name="viewport" content="width=device-width">` — ushbu _element_ sahifani _viewport_ (ko'rish oynasi) kengligida ko'rsatishni ta'minlaydi, mobil *browser*lar sahifalarni ko'rish oynasidan kengroq ko'rsatishga va keyin ularni qisqartirishga yo'l qo'ymaydi.
+- `<meta name="viewport" content="width=device-width">` — ushbu _element_ sahifani _viewport_ (ko'rish oynasi) kengligida ko'rsatishni ta'minlaydi, mobil *browser*lar sahifalarni ko'rish oynasidan kengroq ko'rsatishga va keyin ularni qisqartirishga yo'l qo'ymaydi. (O'zbekchada tushuntirish qiyin ekan shunisini 😅. Hali yana misollar bilan tushuntiriladi. Don't worry!)
 
 - `<title></title>` - bu sizning sahifangizning sarlavhasini o'z ichiga oladi, ya'ni browserda *tab*da ko'rinib turuvchi sarlavha.
 
 - `<body></body>` - bu _element_ *web user*ingizga sahifangizga tashrif buyurganlarida ko'rsatmoqchi bo'lgan barcha *content*ni o'z ichiga oladi.
+
+Umid qilamanki, mening tushuntirishlarim sizga hozirgacha mantiqiy bo'ldi. Endi siz mini-saytimizni qurishni davom ettiradigan keyingi bo'limga o'tishingiz mumkin ✅
