@@ -86,3 +86,51 @@ Masalan:
 Yana `index.html` faylni browserda ochib ko'ramiz:
 
 ![kiwicodecamp mini website 1](./img//kiwi-mini-website-1.png)
+
+## Paragraphs (paragraphlar)
+
+HTMLda paragraf `<p>`, blok elementlardan biridir va ko'p qatorli matnni ko'rsatish uchun foydalaniladi.
+
+`<p>This is a single paragraph</p>`
+
+## HTML lists (ro'yxatlar)
+
+HTML-da ro'yxatlar turli usullarda yaratilishi mumkin. Ro'yxatlar HTML-da tahrir qilinishi va shakllantirilishida katta ahamiyatga ega bo'lib, matnni ko'rsatish uchun yordam beradi. Ro'yxatlar, _tartiblangan_ (ordered lists) `<ol></ol>` va _tartiblanmagan_ (unordered lists) `<ul></ul>` bo'lishi mumkin.
+
+### Ordered lists:
+
+```html
+<ol>
+      
+  <li>HTML</li>
+      
+  <li>CSS</li>
+      
+  <li>JavaScript</li>
+      
+  <li>Node.js</li>
+</ol>
+```
+
+<iframe width="100%" height="300" src="//jsfiddle.net/nomanoff/c0ebfsm4/3/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+`<ol> `tegi ro'yxatni boshlaydi va `<li>` teglari har bir ro'yxat elementini ifodalaydi. Ro'yxat elementlari tartiblangan bo'lib, ularni sonlar bilan belgilash mumkin. Bu yerda, ro'yxat elementlarini "HTML", "CSS", "JavaScript" va "Node.js" deb belgilangan.
+
+### Unordered lists:
+
+Tartiblanmagan ro'yxat HTML-da quyidagi *tag*lar orqali yaratiladi:
+
+```html
+<ul>
+      
+  <li>tekin</li>
+      
+  <li>qulay</li>
+      
+  <li>sifatli</li>
+      
+  <li>ishonchli</li>
+</ul>
+```
+
+<iframe width="100%" height="300" src="//jsfiddle.net/nomanoff/L92xkstb/1/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
