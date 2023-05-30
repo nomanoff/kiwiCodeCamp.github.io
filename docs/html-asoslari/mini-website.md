@@ -16,8 +16,6 @@ Avvalgi darsda boshlab qo'ygan "birinchi" HTML loyihamizni davom ettiramiz.
 
 Yuqorida aytib o'tganimizdek, `<img>` sahifamizga rasmni o'zi qayerga yozilgan bo'lsa o'sha tartib bilan joylashtiradi.
 
-We have also included an alt (alternative) attribute. In the alt attribute, you specify descriptive text for users who cannot see the image, possibly because of the following reasons:
-
 Shuningdek, biz `alt` (aleternative) atributni ham kiritdik. Alt atributida siz tasvirni ko'ra olmaydigan foydalanuvchilar uchun o'sha rasmni tavsiflovchi matnni belgilaysiz, ehtimol quyidagi sabablarga ko'ra:
 
 1. Ko'zi ojiz foydalanuvchilari uchun. Ko'rish qobiliyati sezilarli darajada zaif bo'lgan foydalanuvchilar ko'pincha *alt*dagi matnni o'qish uchun "screen reader" deb nomlangan vositalardan foydalanadilar. Shu yo'l bilan ular rasmni ko'rishmasa ham rasm nima ekanini his qilishlari mumkin.
@@ -134,3 +132,73 @@ Tartiblanmagan ro'yxat HTML-da quyidagi *tag*lar orqali yaratiladi:
 ```
 
 <iframe width="100%" height="300" src="//jsfiddle.net/nomanoff/L92xkstb/1/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+## Links (havolalar)
+
+Linklarni o'rganish juda ham muhim. Chunki, webni web qiladigan ham linklardir. Vebsahiga link qo'shish uchun bizga `<a>` ("a" - "anchor" so'zidan kelgan) tagidan foydalanamiz.
+
+1. Quyida ko'rsatilganday linkga aylantirmoqchi bo'lgan textni `a` taglari orasiga olamiz:
+
+```html
+<a>KiwiCodeCamp Telegram kanali</a>
+```
+
+2. Endi unga `href` attribute qo'shing:
+
+```html
+<a href="">KiwiCodeCamp Telegram kanali</a>
+```
+
+3. End `href`ni birorta link bilan to'ldiring. Misol uchun telegram kanalimizga ulaymiz:
+
+```html
+<a href="https://t.me/kiwicodecamp">KiwiCodeCamp Telegram kanali</a>
+```
+
+Endi websitemizga barcha o'rganganlarimizni qo'yib yozib koramiz:
+
+## Final version ✅
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My demo page</title>
+  </head>
+  <body>
+    <h1>KiwiCodeCamp.</h1>
+    <h2>Biz bilan dasturlashni tekinga o'rganing!</h2>
+
+    <img src="images/kiwicode-logo.png" alt="kiwicodecampning logosi" />
+
+    <p>Nima uchun aynan KiwiCodeCamp:</p>
+
+    <ul>
+          
+      <li>tekin</li>
+          
+      <li>qulay</li>
+          
+      <li>sifatli</li>
+          
+      <li>ishonchli</li>
+    </ul>
+
+    <p>
+      Bizni
+      <a href="https://t.me/kiwicodecamp"
+        >KiwiCodeCampning rasmiy telegram kanalida</a
+      >
+      kuzatib boring!
+    </p>
+  </body>
+</html>
+```
+
+Yuqoridagi html codening browserdagi ko'rinishi:
+
+![kiwicodecamp mini website 1](./img/kiwi-mini-ready.png)
+
+Tabriklations! 🥳 Endi siz HTMLni bilasiz! 🤓 (hmm..., deyarli 😅)
