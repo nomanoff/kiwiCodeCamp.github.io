@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# HTML nima?
+# 0. HTML nima?
 
 Internetda "HTML dasturlash tilimi yoki yo'qmi" degan ko'p argumentlar va *meme*lar mavjud:
 

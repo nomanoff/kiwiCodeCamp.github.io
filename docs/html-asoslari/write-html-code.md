@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# HTML coding practice
+# 1. HTML coding practice
 
 ## Fayllar bilan ishlash
 

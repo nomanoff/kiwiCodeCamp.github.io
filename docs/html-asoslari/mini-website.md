@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# HTML mini website
+# 2. HTML mini website
 
 Avvalgi darsda boshlab qo'ygan "birinchi" HTML loyihamizni davom ettiramiz.
 
