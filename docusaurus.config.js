@@ -59,6 +59,9 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
+    ],
+
+    [
       "@docusaurus/plugin-google-gtag",
       {
         trackingID: "G-8Q098LZMEH",
